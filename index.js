@@ -37,12 +37,8 @@ function reduce(acc, add) {
 
 Avg.prototype.get = function(prefix, fn) {
   var self = this;
-  fn = fn || function(err) { if (err) self.emit('error', err) };
   this.reduced.get([prefix], function(err, value) {
-    if (err)
-      fn(err);
-    else
-      fn(null, JSON.parse(value).mean);
+    fn(err, value && JSON.parse(value).mean);
   });
 };
 
