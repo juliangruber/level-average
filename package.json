@@ -1,7 +1,7 @@
 {
   "name": "level-average",
   "description": "Calculate rolling averages in a LevelDB.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/level-average.git"
@@ -20,7 +20,13 @@
     "level-sublevel": "~5.0.1"
   },
   "keywords": [
-    "leveldb", "level", "sublevel", "average", "rolling", "moving", "map-reduce"
+    "leveldb",
+    "level",
+    "sublevel",
+    "average",
+    "rolling",
+    "moving",
+    "map-reduce"
   ],
   "author": {
     "name": "Julian Gruber",
