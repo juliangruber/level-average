@@ -3,6 +3,10 @@
 
 Calculate rolling averages in a LevelDB.
 
+[![testling badge](https://ci.testling.com/juliangruber/level-average.png)](https://ci.testling.com/juliangruber/level-average)
+
+[![build status](https://secure.travis-ci.org/juliangruber/level-average.png)](http://travis-ci.org/juliangruber/level-average)
+
 ## Example
 
 Store and retrieve rating information:
