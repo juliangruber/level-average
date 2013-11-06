@@ -1,7 +1,7 @@
 {
   "name": "level-average",
   "description": "Calculate rolling averages in a LevelDB.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/level-average.git"
@@ -12,7 +12,7 @@
     "test": "tape test/*.js"
   },
   "dependencies": {
-    "map-reduce": "~4.0.5"
+    "map-reduce": "4.0.5"
   },
   "devDependencies": {
     "tape": "~1.0.4",
