@@ -10,6 +10,10 @@ function Avg(db) {
   Emitter.call(this);
   this.db = db;
   this.reduced = MapReduce(db, 'reduced', map, reduce, acc);
+  this.methods = {
+    get: { type: 'async' },
+    push: { type: 'async' }
+  };
 }
 
 inherits(Avg, Emitter);
